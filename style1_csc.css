@@ -92,6 +92,7 @@ body {
   font-weight: 300 !important;
   line-height: 32px !important;
   /* color: #0279ff !important; */
+  color: initial;
 }
 
 .kpi-module__heroDataContainer {
@@ -106,6 +107,7 @@ body {
     font-weight: 300 !important;
     line-height: 32px !important;
     /* color: #0279ff !important; */
+    color: initial;
   }
 }
 
@@ -115,6 +117,7 @@ body {
     font-weight: 300 !important;
     line-height: 32px !important;
     /* color: #0279ff !important; */
+    color: initial;
   }
 }
 
