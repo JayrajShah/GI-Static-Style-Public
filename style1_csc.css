@@ -154,8 +154,10 @@ body {
   opacity: 0 !important;
 } */
 
+/* hiding legend color picker */
 body .popover-module__positionable.popover-module__in {
-  display: block !important;
+  /* display: block !important; */
+  display: none !important;
 }
 
 .bk-sharable-item-content-container {
