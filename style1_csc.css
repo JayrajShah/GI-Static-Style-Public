@@ -160,6 +160,10 @@ body .popover-module__positionable.popover-module__in {
   display: none !important;
 }
 
+.colorpicker-module__colorPickerContent{
+  display: none !important;
+}
+
 .bk-sharable-item-content-container {
   overflow-y: hidden !important;
 }
