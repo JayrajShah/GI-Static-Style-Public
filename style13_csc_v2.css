@@ -309,9 +309,11 @@ body .popover-module__positionable.popover-module__in {
 }
 
 /* for custom action button */
-.answer-actions-container-module__answerActionsCompact{
-    display: block;
+.answer-actions-container-module__answerActionsHorizontal:not(:focus-within) .answer-actions-container-module__answerActionsCompact{
+    display: block !important;
 }
+
+
 
 /* .pinboard-module__pinboardPage:has(.tile-extraSmall) {
   overflow: hidden !important;
