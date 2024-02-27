@@ -75,7 +75,7 @@ body {
 .tile-size-xs .bk-title-description .bk-title-section {
   display: flex !important;
   justify-content: center !important;
-}
+  }
 
 .kpi-module__hero {
   font-size: 426.999% !important;
@@ -124,7 +124,7 @@ body {
 
 .tile-container .tile-size-xs {
   width: 24.25% !important;
-}
+  }
 
 .bk-pinboard-data-viz {
   box-shadow: none !important;
@@ -168,7 +168,7 @@ body .popover-module__positionable.popover-module__in {
 .tile-undefined
   .answer-actions-container-module__answerActionsHorizontal:not(:focus-within)
   .answer-actions-container-module__answerActionsCompact {
-  display: block !important;
+    display: block !important;
 }
 
 /* V2 CSS */
