@@ -63,6 +63,7 @@ body {
   /* line-height:32px !important; */
   color: #1a1f22 !important;
 }
+
 .tile-container .tile-size-xs .bk-title {
   font-size: 107.167% !important;
   font-weight: 300 !important;
@@ -75,6 +76,7 @@ body {
 .tile-size-xs .bk-title-description .bk-title-section {
   display: flex !important;
   justify-content: center !important;
+  width: 100% !important;
 }
 
 .kpi-module__hero {
@@ -85,6 +87,7 @@ body {
   font-family: "QlikView Sans", sans-serif !important;
   margin: 0px !important;
 }
+
 .kpi-module__heroDataContainer {
   display: flex !important;
   flex-direction: row !important;
@@ -123,7 +126,16 @@ body {
 }
 
 .tile-container .tile-size-xs {
-  width: 24.25% !important;
+  width: 26.25% !important;
+  z-index: 1 !important;
+}
+
+.tile-container  .tile-size-xs:has(.kpi-module__kpi .kpi-module__hero) .bk-base-pinboard-data-viz .bk-pinboard-data-viz-container {
+  min-height: 8em !important;
+}
+
+.tile-container  .tile-size-xs:has(.kpi-module__kpi .kpi-module__hero) .bk-pinboard-data-viz .bk-pinboard-viz-content {
+margin-top: 0px !important;
 }
 
 .bk-pinboard-data-viz {
@@ -139,11 +151,7 @@ body {
   display: none !important;
 }
 
-.chartSection
-  .vizWrapper
-  .bk-axis-label-container
-  .bk-axis-label-control:hover
-  .bk-icon-arrow-down {
+.chartSection .vizWrapper .bk-axis-label-container .bk-axis-label-control:hover .bk-icon-arrow-down {
   opacity: 0 !important;
 }
 
@@ -165,10 +173,49 @@ body .popover-module__positionable.popover-module__in {
 }
 
 /* Maximize 3dot option on hover issue */
-.tile-undefined
-  .answer-actions-container-module__answerActionsHorizontal:not(:focus-within)
-  .answer-actions-container-module__answerActionsCompact {
+.tile-undefined .answer-actions-container-module__answerActionsHorizontal:not(:focus-within) .answer-actions-container-module__answerActionsCompact {
   display: block !important;
+}
+
+/* KPI 3dot option enabled */
+.tile-size-xs .bk-pb-card-action-menu {
+  margin: -1em -1em 0em 0em !important;
+  display: block !important;
+}
+
+.bk-action-dropdown.popover.bottom {
+  margin-top: 5px !important;
+}
+
+.table-viz-module__colHeader .table-viz-module__headerWithAction {
+  width: 100% !important;
+}
+
+.table-viz-module__colHeader .button-module__buttonWrapper {
+  display: none !important;
+}
+
+.table-viz-module__colHeader .table-viz-module__baseHeader .button-module__buttonWrapper {
+  display: block !important;
+}
+
+/* KPI Error style */
+
+.muted-alert-module__container.muted-alert-module__regular.muted-alert-module__local .muted-alert-module__illustration.muted-alert-module__local.muted-alert-module__regular {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-bottom: 0.25rem;
+}
+
+
+.muted-alert-module__container.muted-alert-module__regular.muted-alert-module__local .muted-alert-module__content.muted-alert-module__local.muted-alert-module__regular .muted-alert-module__titleWrapper.muted-alert-module__local .typography-module__content-label-subhead {
+  font-size: 0.9rem !important;
+  line-height: 1 !important;
+}
+
+.muted-alert-module__container.muted-alert-module__regular.muted-alert-module__local .typography-module__body-normal {
+  font-size: 0.8rem !important;
+  line-height: 1.4 !important;
 }
 
 /* V2 CSS */
