@@ -1,0 +1,5 @@
+
+/* for hiding the color palette on maximize */
+.colorpicker-module__content{
+    display: none !important;
+}
